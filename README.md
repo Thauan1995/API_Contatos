@@ -1,6 +1,6 @@
 # API_Contatos
 
-Tem como objetivo receber um ou mais contatos através de uma API Rest e adicioná-los ao banco de dados especifico para cada cliente
+Tem como objetivo receber um ou mais contatos através de uma API Rest e adicioná-los ao banco de dados especifico para cada cliente (cliente Macapa será usado o MYSQL e o cliente Varejão será usado o Postgres). A API consiste também em autenticar esses cliente de maneira que eles não consigam inserir seus dados em outro banco.
 
 ## Requisitos
 
