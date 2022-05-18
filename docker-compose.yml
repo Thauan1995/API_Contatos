@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  dbpostgres:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=12345
+      - POSTGRES_DB=postgresql
+    ports:
+      - "15432:5432"
+    volumes:
+      - dbpostgres:/var/lib/postgresql/data 
+  
+  dbmysql:
+    image: mysql:5.7
+    environment:
+     - MYSQL_USER=mysql
+     - MYSQL_ROOT_PASSWORD=12345
+     - MYSQL_DATABASE=macapaDB
+    ports:
+      - "13306:3306"
+    volumes:
+      - dbmysql:/var/lib/mysql
+
+volumes:
+  dbpostgres:
+  dbmysql:
