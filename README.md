@@ -16,7 +16,7 @@ indico o Beekeeper, fácil de usar
 
 - Em seguida suba os containers rodando o comando abaixo na pasta raiz do projeto:
 
-```docker-compose up -d```
+    ```docker-compose up -d```
 
 - Entre na pasta '/site' e crie um arquivo .env para passar as credenciais dos serviços (Postgres/MYSQL) e da porta. Obrigatório seguir o seguinte padrão:
 
