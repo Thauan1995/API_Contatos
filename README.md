@@ -32,8 +32,10 @@ indico o Beekeeper, fácil de usar
 
 - Primeiro será necessário criar uma tabela de usuario no seu banco MYSQL 
 
+ ```  
     CREATE table contacts (
 	id serial PRIMARY KEY,
 	nome VARCHAR ( 200 ) NOT NULL,
 	senha VARCHAR ( 200 ) NOT NULL
 );
+```
