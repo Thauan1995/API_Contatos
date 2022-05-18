@@ -99,7 +99,7 @@ e enviar um body de acordo com a estrutura:
         {
             "name": "Thauan Mendes",
             "cellphone": "5511960327601"
-        },
+        }
      ]
 }
 ```
