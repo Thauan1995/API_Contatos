@@ -37,7 +37,7 @@ SECRET_KEY=
 
 - Em seguida ainda na pasta site rode o seguinte comando no terminal:
 
-```go run router.go```
+    ```go run router.go```
 
 *Prontinho, sua aplicação está no ar!*
 
