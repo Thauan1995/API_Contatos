@@ -35,6 +35,21 @@ SECRET_KEY=
 ```
 - Você deverá criar uma Secret Key para assinar o token. A secret key pode ser uma chave aleatória qualquer, mas para facilitar, acabei criando um script para gerá-la, Basta acessar https://go.dev/play/p/DmExcRzLWqR
 
+- Ou se preferir rodar em outro ambiente:
+
+``` 
+func main() {
+	chave := make([]byte, 64)
+
+	if _, err := rand.Read(chave); err != nil {
+		log.Fatal(err)
+	}
+
+	stringBase64 := base64.StdEncoding.EncodeToString(chave)
+	fmt.Println(stringBase64)
+}
+```
+
 - Em seguida ainda na pasta site rode o seguinte comando no terminal:
 
     ```go run router.go```
