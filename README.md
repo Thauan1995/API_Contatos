@@ -33,7 +33,7 @@ MYSQL_DATABASE=
 
 SECRET_KEY=
 ```
-- Você deverá criar uma Secret Key para assinar o token
+- Você deverá criar uma Secret Key para assinar o token. A secret key pode ser uma chave aleatória qualquer, mas para facilitar, acabei criando um script para gerá-la, Basta acessar https://go.dev/play/p/DmExcRzLWqR
 
 - Em seguida ainda na pasta site rode o seguinte comando no terminal:
 
